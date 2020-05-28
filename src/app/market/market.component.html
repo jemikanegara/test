@@ -1,0 +1,11 @@
+<app-market-header
+  (filterByCurrency)="filterMarketByCurrency($event)"
+  (filterByFavorite)="filterMarketByFavorite()"
+  (searchMarket)="searchMarket($event)"
+  (revertSearch)="revertSearch()"
+></app-market-header>
+<app-market-content 
+  [market]="marketToShow"
+  (toggleFavorite)="toggleFavorite($event)"
+></app-market-content>
+

@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  padding: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color: #faaf3d;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+td {
+  color: #23346e;
+  padding: 10px 10px 10px 0;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background: url(/assets/images/empty-star.png) no-repeat center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.star:hover,
+.star.favorited {
+  background-image: url(/assets/images/filled-star.png);
+}

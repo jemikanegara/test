@@ -1,0 +1,28 @@
+<table class="content" *ngIf="market.length">
+  <thead>
+    <tr>
+      <th *ngFor="let head of thead" class="table-heading">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pair of market;">
+      <td>
+        <div 
+          class="star" 
+          [ngClass]="{favorited: pair.favorite}"
+          (click)="onFavoriteToggle(pair.id)"
+        ></div>
+      </td>
+      <td>{{pair.pairCurrency}} / {{pair.currency}} </td>
+      <td>{{pair.pairCurrencyPrice}} / {{pair.price}}</td>
+      <td>{{pair.high}}</td>
+      <td>{{pair.low}}</td>
+      <td [ngClass]="{green: isNegative(pair.change), red: !isNegative(pair.change)}">
+        {{!isNegative(pair.change) ? '+' : ''}}{{(pair.change * 100).toFixed(2)}}%
+      </td>
+      <td>{{pair.volume}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="content" *ngIf="!market.length">Data not found</div>

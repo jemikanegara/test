@@ -1,0 +1,16 @@
+<div class="wrapper content">
+  <div class="menu">
+    <div *ngFor="let key of keys">
+        <div 
+          *ngFor="let item of navigation[key]; let i = index" 
+          [ngClass]="item.custom ? 'link custom' : 'link'"
+        >
+          <a [href]="item.link">{{item.label}}</a>
+        </div>
+    </div>
+  </div>
+  <div class="language">
+    <img src="/assets/images/language.png" />
+    <img src="/assets/images/arrow-down.png" class="arrow" />
+  </div>
+</div>

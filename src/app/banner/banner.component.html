@@ -1,0 +1,16 @@
+<ngx-slick-carousel 
+  class="carousel" 
+  #slickModal="slick-carousel" 
+  [config]="slideConfig" 
+>
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+      <div 
+        class="banner content"
+        [ngStyle]="{'background-image':'url(' + slide.background + ')'}">
+      >
+        <h2>{{slide.title}}</h2>
+        <p>{{slide.subtitle}}</p>
+        <app-button>{{slide.button}}</app-button>
+      </div>
+    </div>
+</ngx-slick-carousel>

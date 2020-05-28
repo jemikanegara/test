@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 30px;
+  color: #e1ad29;
+  font-weight: 400;
+}
+
+p {
+  color: #fff;
+}
+
+img {
+  max-width: 150px;
+}
+
+.right {
+  border-left: 1px solid #e1ad29;
+  padding: 10px 20px;
+  margin-left: 20px;
+}

@@ -1,0 +1,32 @@
+<footer class="content">
+  <div class="links">
+    <div *ngFor="let key of navKeys">
+      <h5>{{navs[key].title}}</h5>
+      <div *ngFor="let nav of navs[key].links" class="link">
+        <a [href]="nav.link">
+          {{nav.label}}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="social">
+      <div *ngFor="let social of socials">
+        <a [href]="social.link">
+          <img 
+            [alt]="social.title"
+            [src]="social.icon" 
+            [title]="social.title" 
+          />
+        </a>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="credit">
+      <p>
+        © 2019 Starmex.com. All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>

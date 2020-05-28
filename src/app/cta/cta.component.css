@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  background-color: #1a1a2f;
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: #e2ad2d;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+app-button {
+  margin: 0 20px 30px;
+}

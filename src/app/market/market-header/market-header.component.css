@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  background: #131128;
+  padding: 20px;
+  color: #e1ad29;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link img {
+  max-width: 24px;
+  margin-right: 5px;
+}
+
+.search {
+  position: relative;
+}
+
+.search .icon {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  top: 5px;
+  bottom: 5px;
+  background: url(/assets/images/search.png) no-repeat center;
+  background-size: contain;
+}
+
+.search input {
+  padding: 5px 20px;
+  border: 1px solid #e1ad29;
+  border-radius: 50px;
+  background: transparent;
+  outline: none;
+}
+
+.search input,
+.search input::placeholder {
+  font-size: 16px;
+  color: #e1ad29;
+  text-align: center;
+}
+
+.search input:focus::placeholder {
+  color: transparent;
+}

@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.red {
+  color: #c31e69!important;
+}
+
+.green {
+  color: #0c8f67!important;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-dots {
+  bottom: 30px;
+}
+
+.slick-dots li button::before {
+  opacity: 1!important;
+  color: transparent!important;
+  border: 1px solid #e1ad29;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #e1ad29;
+}

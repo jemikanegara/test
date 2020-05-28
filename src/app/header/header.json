@@ -1,0 +1,31 @@
+{
+  "left": [
+    {
+      "link": "#",
+      "label": "Exchange"
+    },
+    {
+      "link": "#",
+      "label": "Product"
+    },
+    {
+      "link": "#",
+      "label": "Service"
+    }
+  ],
+  "right": [
+    {
+      "link": "#",
+      "label": "Login"
+    },
+    {
+      "link": "#",
+      "label": "Register",
+      "custom": true
+    },
+    {
+      "link": "#",
+      "label": "Support"
+    }
+  ]
+}

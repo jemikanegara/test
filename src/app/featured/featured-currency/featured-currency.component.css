@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  margin-right: 20px;
+}
+
+.right .currency-price {
+  color: #c31e69;
+  font-size: 30px;
+}

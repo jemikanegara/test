@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  background-color: #131128;
+  padding-top: 80px;
+}
+
+.banner {
+  min-height: 520px;
+  background: url(/assets/images/banner.png) no-repeat top right;
+  background-size: 85%;
+  padding: 60px;
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 45px;
+  width: 60%;
+  color: #e1ad29;
+  margin-top: 60px;
+}
+
+p {
+  color: #fff;
+  margin: 15px 0 30px;
+}

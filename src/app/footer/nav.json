@@ -1,0 +1,150 @@
+{
+  "column1": {
+    "title": "About Us",
+    "links": [
+      {
+        "link": "#",
+        "label": "About"
+      },
+      {
+        "link": "#",
+        "label": "Terms"
+      },
+      {
+        "link": "#",
+        "label": "Privacy"
+      },
+      {
+        "link": "#",
+        "label": "Fees"
+      },
+      {
+        "link": "#",
+        "label": "Careers"
+      },
+      {
+        "link": "#",
+        "label": "Announcements"
+      },
+      {
+        "link": "#",
+        "label": "Referral"
+      },
+      {
+        "link": "#",
+        "label": "About Us"
+      }
+    ]
+  },
+  "column2": {
+    "title": "Product",
+    "links": [
+      {
+        "link": "#",
+        "label": "About"
+      },
+      {
+        "link": "#",
+        "label": "Terms"
+      },
+      {
+        "link": "#",
+        "label": "Privacy"
+      },
+      {
+        "link": "#",
+        "label": "Fees"
+      },
+      {
+        "link": "#",
+        "label": "Careers"
+      },
+      {
+        "link": "#",
+        "label": "Announcements"
+      },
+      {
+        "link": "#",
+        "label": "Referral"
+      },
+      {
+        "link": "#",
+        "label": "About Us"
+      }
+    ]
+  },
+  "column3": {
+    "title": "Service",
+    "links": [
+      {
+        "link": "#",
+        "label": "About"
+      },
+      {
+        "link": "#",
+        "label": "Terms"
+      },
+      {
+        "link": "#",
+        "label": "Privacy"
+      },
+      {
+        "link": "#",
+        "label": "Fees"
+      },
+      {
+        "link": "#",
+        "label": "Careers"
+      },
+      {
+        "link": "#",
+        "label": "Announcements"
+      },
+      {
+        "link": "#",
+        "label": "Referral"
+      },
+      {
+        "link": "#",
+        "label": "About Us"
+      }
+    ]
+  },
+  "column4": {
+    "title": "Support",
+    "links": [
+      {
+        "link": "#",
+        "label": "About"
+      },
+      {
+        "link": "#",
+        "label": "Terms"
+      },
+      {
+        "link": "#",
+        "label": "Privacy"
+      },
+      {
+        "link": "#",
+        "label": "Fees"
+      },
+      {
+        "link": "#",
+        "label": "Careers"
+      },
+      {
+        "link": "#",
+        "label": "Announcements"
+      },
+      {
+        "link": "#",
+        "label": "Referral"
+      },
+      {
+        "link": "#",
+        "label": "About Us"
+      }
+    ]
+  }
+}

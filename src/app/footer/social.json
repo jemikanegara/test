@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Facebook",
+    "icon": "/assets/images/facebook.png",
+    "link": "#"
+  },
+  {
+    "title": "Twitter",
+    "icon": "/assets/images/twitter.png",
+    "link": "#"
+  },
+  {
+    "title": "Instagram",
+    "icon": "/assets/images/instagram.png",
+    "link": "#"
+  }
+]

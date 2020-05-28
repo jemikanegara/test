@@ -1,0 +1,60 @@
+:host {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 0 10px;
+  z-index: 99;
+}
+
+.menu,
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper {
+  justify-content: flex-end;
+}
+
+.menu > div,
+.wrapper > div {
+  display: flex;
+}
+
+.link {
+  margin: 25px 15px;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.link.custom {
+  background-color: #e1ad29;
+}
+
+.link a {
+  color: #e1ad29;
+  text-decoration: none;
+}
+
+.link.custom a {
+  color: #131128;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language img {
+  width: 30px;
+  height: 30px;
+}
+
+.language .arrow {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  margin-top: 12px;
+}

@@ -1,0 +1,17 @@
+<div class="content wrapper">
+  <ng-container *ngFor="let link of links">
+    <div (click)="link.method()" class="link">
+      <img *ngIf="link.label === 'Favorites'" src="/assets/images/star.png"/>
+      {{link.label}}
+    </div>
+  </ng-container>
+  <div class="search">
+    <div class="icon"></div>
+    <input
+      type="text" 
+      placeholder="Search"
+      [(ngModel)]="search"
+      (keyup)="onSearch()"
+    >
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="left">
+  <div class="currency-name">{{currency.name}}</div>
+  <div class="currency-price">${{numberWithCommas(currency.price)}}</div>
+</div>
+<div class="right">
+  <div class="currency-price">{{numberWithCommas(currency.price)}}</div>
+  <div 
+    class="currency-change"
+    [ngClass]="{red: isNegativeChange(), green: !isNegativeChange()}"
+  >
+    {{changeFormat()}}
+  </div>
+</div>
